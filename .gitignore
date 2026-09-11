@@ -96,3 +96,7 @@ data/*.json
 
 # CodeGraph index
 .codegraphdata/
+
+# 工具生成产物
+assets/
+.codegraph/

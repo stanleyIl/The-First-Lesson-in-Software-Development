@@ -1,9 +1,12 @@
 [project]
 name = "todo-cli"
-version = "0.0.1"
+version = "0.2.0"
 description = "命令行个人待办清单（To-Do List），基于 Python 标准库"
 requires-python = ">=3.10"
 dependencies = []
+
+[project.scripts]
+todo = "todo_cli.__main__:main"
 
 [dependency-groups]
 dev = ["pytest>=8"]
