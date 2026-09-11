@@ -1,0 +1,12 @@
+[project]
+sub_id = "dc865abb"
+name = "todo-cli"
+requires = ["python-3.12"]
+project_type = ""
+version = "0.0.35"
+
+[preview]
+preview_enable = "disabled"
+
+[subprojects]
+path = ["."]
